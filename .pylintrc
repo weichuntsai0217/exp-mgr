@@ -1,0 +1,18 @@
+[MASTER]
+
+# For some classes which only implement magic methods.
+min-public-methods=0
+
+# The length of an argument is at least 2.
+argument-rgx=[a-z_][a-z0-9_]{1,30}$
+
+# The length of an attribute is at least 2.
+attr-rgx=[a-z_][a-z0-9_]{1,30}$
+
+# The length of a variable is at least 1.
+const-rgx=[a-z_][a-z0-9_]{0,30}$
+variable-rgx=[a-z_][a-z0-9_]{0,30}$
+
+disable=pointless-string-statement,
+        unidiomatic-typecheck,
+        no-member,
